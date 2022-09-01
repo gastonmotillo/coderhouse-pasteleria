@@ -1,0 +1,95 @@
+.mainContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    color: #572002;
+    font-family: $tipografiaBody;
+
+    h1 {
+        font-size: 50px !important;
+    }
+
+    &__contacto {
+        display: flex;
+        align-items: center;
+        color: #572002;
+        font-size: 20px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            margin-right: 80px;
+
+            label {
+                padding: 10px;
+                color: #572002;
+                font-size: 25px;
+                margin: 5px;
+            }
+
+            input {
+                background-color: transparent;
+                border: none;
+                border-bottom: 3px solid #572002;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            textarea {
+                resize: none;
+                background-color: #5720021a;
+                color: #572002;
+                border: 2px solid #572002;
+                margin: 5px;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    &__btn {
+        background-color: #FCE2DB !important;
+        color: #572002;
+        font-size: 17px;
+        margin: 20px;
+        padding: 10px;
+        border: none;
+        border-bottom: none !important;
+        border-radius: 10px;
+        transition: .5s ease;
+        box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.979);
+
+        &:hover {
+            font-size: 18px;
+            background-color: #572002 !important;
+            color: #FCE2DB;
+        }
+    }
+
+    &__mapa {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background-color: #57200234;
+        color: #572002;
+        font-size: 20px;
+        text-align: center;
+        margin: 50px;
+        padding: 40px;
+        border-radius: 30px;
+        box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973);
+
+        h2 {
+            margin-bottom: 25px;
+        }
+    }
+}

@@ -1,16 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 body {
-  background-image: linear-gradient(#ecd3bf, #e9b68c);
-  font-family: 'Barlow', sans-serif; }
+  background-image: linear-gradient(#ecd3bf, #e9b68c); }
 
 .header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: "Barlow", sans-serif;
   position: sticky;
   top: 0px;
   z-index: 1; }
@@ -38,13 +40,216 @@ body {
         color: white;
         font-size: 21px; }
 
+.mainIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Barlow", sans-serif; }
+  .mainIndex__princ {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px 5px;
+    padding: 10px; }
+    .mainIndex__princ img {
+      width: 400px;
+      margin: 10px;
+      border-radius: 30px;
+      box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.979);
+      animation: foto-pastelera 3s ease 0s 1 normal forwards; }
+  .mainIndex__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #572002;
+    text-align: center;
+    margin: 15px 5px;
+    padding: 30px; }
+    .mainIndex__texto h1 {
+      font-size: 110px !important;
+      font-weight: bolder;
+      font-family: "Dancing Script", cursive !important; }
+    .mainIndex__texto p {
+      font-size: 40px;
+      color: #572002; }
+  .mainIndex__container {
+    z-index: 0; }
+
+.mainSobreMi {
+  display: flex;
+  flex-direction: column;
+  font-family: "Barlow", sans-serif; }
+  .mainSobreMi__card {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 15px 5px;
+    padding: 10px; }
+    .mainSobreMi__card img {
+      width: 400px;
+      margin: 10px;
+      border-radius: 30px;
+      box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.966);
+      animation: foto-pastelera 3s ease 0s 1 normal forwards; }
+  .mainSobreMi__titulo {
+    display: flex;
+    flex-direction: column; }
+    .mainSobreMi__titulo h1 {
+      text-align: center;
+      padding: 15px;
+      color: #572002;
+      font-family: "Dancing Script", cursive !important;
+      font-size: 55px !important;
+      margin: 15px 5px; }
+    .mainSobreMi__titulo p {
+      text-align: center;
+      padding: 15px;
+      color: #572002;
+      font-size: 33px;
+      margin: 15px 5px; }
+  .mainSobreMi__videos {
+    display: flex;
+    flex-direction: column; }
+  .mainSobreMi__vtitulo {
+    text-align: center;
+    padding: 15px;
+    color: #572002;
+    font-size: 30px;
+    margin: 15px 5px; }
+  .mainSobreMi__iframe {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; }
+    .mainSobreMi__iframe iframe {
+      margin: 10px; }
+
+.mainProductos {
+  font-family: "Barlow", sans-serif; }
+  .mainProductos h1 {
+    padding: 15px;
+    color: #572002;
+    font-size: 40px;
+    text-align: center; }
+  .mainProductos__gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+    align-items: start;
+    text-align: center;
+    justify-content: center;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px; }
+  .mainProductos__gridProd img {
+    width: 310px;
+    height: 400px;
+    margin: 15px;
+    border-radius: 30px;
+    box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973);
+    transition: all 300ms;
+    position: relative; }
+    .mainProductos__gridProd img:hover {
+      transform: scale(1.03); }
+  .mainProductos__gridProd h3, .mainProductos__gridProd p, .mainProductos__gridProd h4 {
+    padding: 10px;
+    color: #572002;
+    font-size: 25px; }
+
+.mainComoComprar {
+  font-family: "Barlow", sans-serif;
+  color: #572002; }
+  .mainComoComprar h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px; }
+  .mainComoComprar ol {
+    padding-left: 50px; }
+  .mainComoComprar li {
+    padding: 10px;
+    font-size: 30px; }
+
+.mainContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px;
+  padding: 15px;
+  color: #572002;
+  font-family: "Barlow", sans-serif; }
+  .mainContacto h1 {
+    font-size: 50px !important; }
+  .mainContacto__contacto {
+    display: flex;
+    align-items: center;
+    color: #572002;
+    font-size: 20px; }
+    .mainContacto__contacto form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      margin-right: 80px; }
+      .mainContacto__contacto form label {
+        padding: 10px;
+        color: #572002;
+        font-size: 25px;
+        margin: 5px; }
+      .mainContacto__contacto form input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 3px solid #572002; }
+        .mainContacto__contacto form input:focus {
+          outline: none; }
+      .mainContacto__contacto form textarea {
+        resize: none;
+        background-color: #5720021a;
+        color: #572002;
+        border: 2px solid #572002;
+        margin: 5px; }
+        .mainContacto__contacto form textarea:focus {
+          outline: none; }
+  .mainContacto__btn {
+    background-color: #FCE2DB !important;
+    color: #572002;
+    font-size: 17px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: none !important;
+    border-radius: 10px;
+    transition: .5s ease;
+    box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.979); }
+    .mainContacto__btn:hover {
+      font-size: 18px;
+      background-color: #572002 !important;
+      color: #FCE2DB; }
+  .mainContacto__mapa {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #57200234;
+    color: #572002;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973); }
+    .mainContacto__mapa h2 {
+      margin-bottom: 25px; }
+
 .footer {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
   align-items: center;
   color: #572002;
-  margin: 15px 5px; }
+  margin: 15px 5px;
+  font-family: "Barlow", sans-serif; }
   .footer__ul {
     display: flex;
     flex-flow: row wrap;

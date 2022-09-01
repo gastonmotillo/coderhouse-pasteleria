@@ -6,14 +6,17 @@
 
 body {
     background-image: linear-gradient(#ecd3bf, #e9b68c);
-    font-family: 'Barlow', sans-serif;
 }
 
 
 
-
+@import "./variables/tipografia";
 
 
 @import "./secciones/header";
+@import "./secciones/mainIndex";
+@import "./secciones/mainSobreMi";
+@import "./secciones/mainProductos";
+@import "./secciones/mainComoComprar";
+@import "./secciones/mainContacto";
 @import "./secciones/footer";
-
