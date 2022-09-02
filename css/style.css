@@ -360,7 +360,7 @@ body {
   align-content: center;
   align-items: center;
   color: #572002;
-  margin: 15px 5px;
+  margin: 30px 5px 0 5px;
   font-family: "Barlow", sans-serif; }
   .footer__ul {
     display: flex;
