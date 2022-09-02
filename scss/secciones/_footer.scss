@@ -3,7 +3,7 @@
     flex-flow: column wrap;
     align-content: center;
     align-items: center;
-    color: #572002;
+    color: $colorLetra;
     margin: 15px 5px;
     font-family: $tipografiaBody;
 
@@ -52,11 +52,7 @@
         flex-flow: column wrap;
 
         p {
-            text-align: center;
-            color: #572002;
-            font-size: 30px;
-            padding: 10px;
-            margin: 0;
+            @extend %estiloFooterParrafos;
         }
     }
 }

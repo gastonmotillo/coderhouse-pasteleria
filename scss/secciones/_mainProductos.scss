@@ -1,10 +1,11 @@
 .mainProductos {
     font-family: $tipografiaBody;
+    min-height: $altoMinimo - 20vh;
 
     h1 {
         padding: 15px;
-        color: #572002;
-        font-size: 40px;
+        color: $colorLetra;
+        font-size: 50px;
         text-align: center;
     }
 
@@ -38,7 +39,7 @@
 
         h3, p, h4 {
             padding: 10px;
-            color: #572002;
+            color: $colorLetra;
             font-size: 25px;
         }
     }

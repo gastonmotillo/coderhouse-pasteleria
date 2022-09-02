@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     font-family: $tipografiaBody;
+    min-height: $altoMinimo - 20vh;
 
     &__card {
         display: flex;
@@ -26,7 +27,7 @@
         h1 {
             text-align: center;
             padding: 15px;
-            color: #572002;
+            color: $colorLetra;
             font-family: $tipografiaH1 !important;
             font-size: 55px !important;
             margin: 15px 5px;
@@ -35,7 +36,7 @@
         p {
             text-align: center;
             padding: 15px;
-            color: #572002;
+            color: $colorLetra;
             font-size: 33px;
             margin: 15px 5px;
         }
@@ -49,8 +50,8 @@
     &__vtitulo {
         text-align: center;
         padding: 15px;
-        color: #572002;
-        font-size: 30px;
+        color: $colorLetra;
+        font-size: 17px;
         margin: 15px 5px;
     }
 

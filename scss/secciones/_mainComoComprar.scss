@@ -1,6 +1,7 @@
 .mainComoComprar {
     font-family: $tipografiaBody;
-    color: #572002;
+    color: $colorLetra;
+    min-height: $altoMinimo - 20vh;
 
     h1 {
         text-align: center;
