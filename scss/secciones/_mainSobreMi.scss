@@ -67,6 +67,42 @@
 }
 
 
+@media (max-width: 769px) {
+    .mainSobreMi {
+        &__card {
+            flex-direction: column;
+        }
+    } 
+}
+
+@media (max-width: 680px) {
+    .mainSobreMi {
+        &__card {
+            flex-direction: column;
+
+            img {
+                width: 275px;
+            }
+        }
+
+        &__titulo {
+
+            h1 {
+                font-size: 34px !important;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        &__vtitulo {
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+}
 
 
 // .main-sobreMi {

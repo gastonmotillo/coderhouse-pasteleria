@@ -18,3 +18,16 @@
         font-size: 30px;
     }
 }
+
+@media (max-width: 680px) {
+    .mainComoComprar {
+
+        h1 {
+        font-size: 30px;
+        }
+
+        li {
+            font-size: 20px;
+        }
+    }
+}

@@ -94,3 +94,44 @@
         }
     }
 }
+
+
+
+@media (max-width: 769px) {
+    .mainContacto {
+        &__contacto {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .mainContacto {
+
+        h1 {
+            font-size: 25px !important;
+        }
+
+        &__contacto {
+            display: flex;
+            flex-direction: column;
+
+            form {
+                margin-right: 0px;
+            }
+        }
+
+        &__mapa {
+            width: 320px;
+            height: 400px;
+            margin: 0;
+
+            iframe {
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+    }
+}

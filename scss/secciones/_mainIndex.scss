@@ -49,4 +49,28 @@
     }
 }
 
+@media (max-width: 680px) {
 
+    .mainIndex {
+        &__princ {
+            flex-flow: column;
+
+            img {
+                width: 275px;
+            }
+        }
+    
+        &__texto {
+
+            h1 {
+            font-size: 50px !important;
+            text-align: center;
+            }
+
+            p {
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+    }
+}

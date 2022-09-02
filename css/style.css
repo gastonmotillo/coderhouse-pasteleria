@@ -26,8 +26,16 @@ body {
   line-height: 1.5 !important; }
   .header__logo {
     animation: logo 1s linear 0s 1 normal forwards; }
-  .header a img {
-    width: 150px !important; }
+    .header__logo img {
+      width: 170px !important; }
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
   .header__ul {
     display: flex;
     flex-wrap: wrap;
@@ -38,6 +46,14 @@ body {
     border-radius: 10px;
     box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.726);
     animation: nav 1s linear 0s 1 normal forwards; }
+
+@keyframes nav {
+  0% {
+    opacity: 0;
+    transform: translateY(-250px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
     .header__ul a {
       color: rgba(255, 255, 255, 0.63);
       font-weight: 600 !important;
@@ -48,6 +64,20 @@ body {
       .header__ul a:hover {
         color: white;
         font-size: 21px !important; }
+
+@media (max-width: 768px) {
+  .header__ul a {
+    margin: 10px !important;
+    font-size: 19px !important; } }
+
+@media (max-width: 680px) {
+  .header {
+    flex-direction: column; }
+    .header__logo img {
+      width: 150px !important; }
+    .header__ul a {
+      margin: 5px !important;
+      font-size: 14px !important; } }
 
 .mainIndex {
   display: flex;
@@ -86,6 +116,18 @@ body {
       color: #572002; }
   .mainIndex__container {
     z-index: 0; }
+
+@media (max-width: 680px) {
+  .mainIndex__princ {
+    flex-flow: column; }
+    .mainIndex__princ img {
+      width: 275px; }
+  .mainIndex__texto h1 {
+    font-size: 50px !important;
+    text-align: center; }
+  .mainIndex__texto p {
+    font-size: 25px;
+    text-align: center; } }
 
 .mainSobreMi {
   display: flex;
@@ -136,6 +178,22 @@ body {
     .mainSobreMi__iframe iframe {
       margin: 10px; }
 
+@media (max-width: 769px) {
+  .mainSobreMi__card {
+    flex-direction: column; } }
+
+@media (max-width: 680px) {
+  .mainSobreMi__card {
+    flex-direction: column; }
+    .mainSobreMi__card img {
+      width: 275px; }
+  .mainSobreMi__titulo h1 {
+    font-size: 34px !important; }
+  .mainSobreMi__titulo p {
+    font-size: 20px; }
+  .mainSobreMi__vtitulo h2 {
+    font-size: 20px; } }
+
 .mainProductos {
   font-family: "Barlow", sans-serif;
   min-height: 80vh; }
@@ -143,7 +201,8 @@ body {
     padding: 15px;
     color: #572002;
     font-size: 50px;
-    text-align: center; }
+    text-align: center;
+    margin: 20px; }
   .mainProductos__gridContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -165,10 +224,22 @@ body {
     position: relative; }
     .mainProductos__gridProd img:hover {
       transform: scale(1.03); }
-  .mainProductos__gridProd h3, .mainProductos__gridProd p, .mainProductos__gridProd h4 {
+  .mainProductos__gridProd h3,
+  .mainProductos__gridProd p,
+  .mainProductos__gridProd h4 {
     padding: 10px;
     color: #572002;
     font-size: 25px; }
+
+@media (max-width: 900px) {
+  .mainProductos__gridContainer {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 680px) {
+  .mainProductos h1 {
+    font-size: 30px; }
+  .mainProductos__gridContainer {
+    grid-template-columns: repeat(1, 1fr); } }
 
 .mainComoComprar {
   font-family: "Barlow", sans-serif;
@@ -183,6 +254,12 @@ body {
   .mainComoComprar li {
     padding: 10px;
     font-size: 30px; }
+
+@media (max-width: 680px) {
+  .mainComoComprar h1 {
+    font-size: 30px; }
+  .mainComoComprar li {
+    font-size: 20px; } }
 
 .mainContacto {
   display: flex;
@@ -256,6 +333,27 @@ body {
     .mainContacto__mapa h2 {
       margin-bottom: 25px; }
 
+@media (max-width: 769px) {
+  .mainContacto__contacto {
+    display: flex;
+    flex-direction: column; } }
+
+@media (max-width: 680px) {
+  .mainContacto h1 {
+    font-size: 25px !important; }
+  .mainContacto__contacto {
+    display: flex;
+    flex-direction: column; }
+    .mainContacto__contacto form {
+      margin-right: 0px; }
+  .mainContacto__mapa {
+    width: 320px;
+    height: 400px;
+    margin: 0; }
+    .mainContacto__mapa iframe {
+      width: 300px;
+      height: 300px; } }
+
 .footer {
   display: flex;
   flex-flow: column wrap;
@@ -293,6 +391,22 @@ body {
       font-size: 35px;
       font-weight: 300;
       animation: redesSociales 2s ease 0s infinite normal none; }
+
+@keyframes redesSociales {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 1; } }
   .footer__parrafos {
     display: flex;
     flex-flow: column wrap; }
+
+@media (max-width: 680px) {
+  .footer__ul h3 {
+    display: none; }
+  .footer__ul a {
+    font-size: 20px; }
+  .footer__parrafos p {
+    font-size: 23px; } }
