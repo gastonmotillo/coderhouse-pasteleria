@@ -90,6 +90,7 @@
         box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973);
 
         h2 {
+            font-size: 30px;
             margin-bottom: 25px;
         }
     }
@@ -126,6 +127,10 @@
             width: 320px;
             height: 400px;
             margin: 0;
+
+            h2 {
+                font-size: 20px !important;
+            }
 
             iframe {
                 width: 300px;

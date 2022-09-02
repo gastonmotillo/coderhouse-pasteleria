@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 body {
-  background-image: linear-gradient(#ecd3bf, #e9b68c); }
+  background-image: linear-gradient(#ecd3bf, #e2a776); }
 
 .footer__parrafos p {
   text-align: center;
@@ -84,9 +84,9 @@ body {
     .header__ul li {
       margin: 0 5px !important; }
       .header__ul li a {
-        font-size: 14px !important; }
+        font-size: 13px !important; }
         .header__ul li a:hover {
-          font-size: 15px !important; } }
+          font-size: 14px !important; } }
 
 .mainIndex {
   display: flex;
@@ -340,6 +340,7 @@ body {
     border-radius: 30px;
     box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973); }
     .mainContacto__mapa h2 {
+      font-size: 30px;
       margin-bottom: 25px; }
 
 @media (max-width: 769px) {
@@ -359,6 +360,8 @@ body {
     width: 320px;
     height: 400px;
     margin: 0; }
+    .mainContacto__mapa h2 {
+      font-size: 20px !important; }
     .mainContacto__mapa iframe {
       width: 300px;
       height: 300px; } }

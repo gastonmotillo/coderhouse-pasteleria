@@ -1,3 +1,5 @@
+@import "./variables/_colores";
+
 * {
     margin: 0;
     padding: 0;
@@ -5,17 +7,12 @@
 }
 
 body {
-    background-image: linear-gradient(#ecd3bf, #e9b68c);
+    background-image: linear-gradient( $colorBody );
 }
 
-
-
 @import "./variables/tipografia";
-@import "./variables/_colores";
 @import "./variables/extend";
 @import "./variables/tamanios";
-
-
 
 @import "./secciones/header";
 @import "./secciones/mainIndex";
