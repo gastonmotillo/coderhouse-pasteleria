@@ -401,7 +401,8 @@ body {
     opacity: 1; } }
   .footer__parrafos {
     display: flex;
-    flex-flow: column wrap; }
+    flex-flow: column wrap;
+    margin-top: 10px; }
 
 @media (max-width: 680px) {
   .footer__ul h3 {

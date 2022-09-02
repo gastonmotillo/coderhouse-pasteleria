@@ -64,6 +64,7 @@
     &__parrafos {
         display: flex;
         flex-flow: column wrap;
+        margin-top: 10px;
 
         p {
             @extend %estiloFooterParrafos;
