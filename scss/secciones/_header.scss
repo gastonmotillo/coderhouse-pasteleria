@@ -52,17 +52,25 @@
             }
         }
 
-        a {
-            color: rgba(255, 255, 255, 0.63);
-            font-weight: 600 !important;
-            text-decoration: none;
-            font-size: 20px !important;
-            margin: 25px !important;
-            transition: .5s ease;
+        &--active {
+            color: white !important;
+        }
 
-            &:hover {
-                color: white;
-                font-size: 21px !important;
+        li {
+
+            margin: 0 25px !important;
+
+            a {
+                color: rgba(255, 255, 255, 0.63);
+                font-weight: 600 !important;
+                text-decoration: none;
+                font-size: 20px !important;
+                transition: .5s ease;
+
+                &:hover {
+                    color: white;
+                    font-size: 21px !important;
+                }
             }
         }
     }
@@ -72,9 +80,17 @@
     .header {
         
         &__ul {
-            a {
-                margin: 10px !important;
-                font-size: 19px !important;
+
+            li {
+                margin: 0 10px !important;
+
+                a {
+                    font-size: 19px !important;
+
+                    &:hover {
+                        font-size: 20px !important;
+                    }
+                }
             }
         }
     }
@@ -93,16 +109,19 @@
         }
         
         &__ul {
-            a {
-                margin: 5px !important;
-                font-size: 14px !important;
+
+            li {
+                margin: 0 5px !important;
+
+                a {
+                    font-size: 14px !important;
+                    &:hover {
+                        font-size: 15px !important;
+                    }
+                }
             }
         }
     }
 }
-
-
-
-
 
 
