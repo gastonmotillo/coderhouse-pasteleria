@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&display=swap");
+.footer__parrafos p {
+  text-align: center;
+  color: #572002;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0; }
+
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +14,6 @@
 
 body {
   background-image: linear-gradient(#ecd3bf, #e2a776); }
-
-.footer__parrafos p {
-  text-align: center;
-  color: #572002;
-  font-size: 30px;
-  padding: 10px;
-  margin: 0; }
 
 .header {
   display: flex;

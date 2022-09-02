@@ -1,19 +1,10 @@
 @import "./variables/_colores";
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-image: linear-gradient( $colorBody );
-}
-
 @import "./variables/tipografia";
 @import "./variables/extend";
 @import "./variables/tamanios";
 
+
+@import "./secciones/body";
 @import "./secciones/header";
 @import "./secciones/mainIndex";
 @import "./secciones/mainSobreMi";
