@@ -30,6 +30,7 @@
             color: $colorLetra;
             font-family: $tipografiaH1 !important;
             font-size: 55px !important;
+            font-weight: 600 !important;
             margin: 15px 5px;
         }
 
@@ -53,6 +54,10 @@
         color: $colorLetra;
         font-size: 17px;
         margin: 15px 5px;
+
+        h2 {
+            font-weight: 600 !important;
+        }
     }
 
     &__iframe {

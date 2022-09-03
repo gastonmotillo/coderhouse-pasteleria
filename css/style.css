@@ -167,6 +167,7 @@ body {
       color: #572002;
       font-family: "Dancing Script", cursive !important;
       font-size: 55px !important;
+      font-weight: 600 !important;
       margin: 15px 5px; }
     .mainSobreMi__titulo p {
       text-align: center;
@@ -183,6 +184,8 @@ body {
     color: #572002;
     font-size: 17px;
     margin: 15px 5px; }
+    .mainSobreMi__vtitulo h2 {
+      font-weight: 600 !important; }
   .mainSobreMi__iframe {
     display: flex;
     flex-flow: row wrap;
@@ -212,6 +215,7 @@ body {
   .mainProductos h1 {
     padding: 15px;
     color: #572002;
+    font-weight: 600 !important;
     font-size: 50px;
     text-align: center;
     margin: 20px; }
@@ -237,8 +241,12 @@ body {
     .mainProductos__gridProd img:hover {
       transform: scale(1.03); }
   .mainProductos__gridProd h3,
-  .mainProductos__gridProd p,
   .mainProductos__gridProd h4 {
+    padding: 10px;
+    color: #572002;
+    font-weight: 600 !important;
+    font-size: 25px; }
+  .mainProductos__gridProd p {
     padding: 10px;
     color: #572002;
     font-size: 25px; }
@@ -258,6 +266,7 @@ body {
   color: #572002;
   min-height: 80vh; }
   .mainComoComprar h1 {
+    font-weight: 600 !important;
     text-align: center;
     font-size: 50px;
     margin: 40px; }
@@ -284,7 +293,8 @@ body {
   font-family: "Barlow", sans-serif;
   min-height: 80vh; }
   .mainContacto h1 {
-    font-size: 50px !important; }
+    font-size: 50px !important;
+    font-weight: 600 !important; }
   .mainContacto__contacto {
     display: flex;
     align-items: center;
@@ -344,6 +354,7 @@ body {
     box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973); }
     .mainContacto__mapa h2 {
       font-size: 30px;
+      font-weight: 600 !important;
       margin-bottom: 25px; }
 
 @media (max-width: 769px) {
