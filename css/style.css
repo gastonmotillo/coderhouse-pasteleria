@@ -246,7 +246,12 @@ body {
     position: relative; }
     .mainProductos__gridProd img:hover {
       transform: scale(1.03); }
-  .mainProductos__gridProd h3,
+  .mainProductos__gridProd h3 {
+    margin-top: 20px;
+    padding: 10px;
+    color: #572002;
+    font-weight: 600 !important;
+    font-size: 25px; }
   .mainProductos__gridProd h4 {
     padding: 10px;
     color: #572002;
@@ -286,7 +291,9 @@ body {
   .mainComoComprar h1 {
     font-size: 30px; }
   .mainComoComprar li {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .mainComoComprar ol {
+    padding-left: 30px; } }
 
 .mainContacto {
   display: flex;

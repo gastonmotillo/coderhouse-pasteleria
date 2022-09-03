@@ -39,7 +39,14 @@
             }
         }
 
-        h3,
+        h3 {
+            margin-top: 20px;
+            padding: 10px;
+            color: $colorLetra;
+            font-weight: 600 !important;
+            font-size: 25px;
+        }
+
         h4 {
             padding: 10px;
             color: $colorLetra;
