@@ -209,7 +209,8 @@ body {
     .mainSobreMi__card img {
       width: 275px; }
   .mainSobreMi__titulo h1 {
-    font-size: 34px !important; }
+    font-size: 34px !important;
+    margin-top: 30px; }
   .mainSobreMi__titulo p {
     font-size: 20px; }
   .mainSobreMi__vtitulo h2 {
