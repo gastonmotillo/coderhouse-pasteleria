@@ -41,8 +41,7 @@ body {
     opacity: 1;
     transform: translateX(0); } }
   .header__boton {
-    background-color: #572002d7;
-    color: transparent; }
+    background-color: #57200285; }
   .header__ul {
     display: flex;
     flex-wrap: wrap;
