@@ -123,6 +123,10 @@
 @media (max-width: 680px) {
     .header {
 
+        &__nav {
+            margin-right: 0 !important;
+        }
+
         &__logo {
 
             img {
@@ -132,8 +136,10 @@
         }
         
         &__ul {
-
+            width: 100%;
             animation: none;
+            align-content: space-around;
+            align-items: center;
         }
     }
 }
