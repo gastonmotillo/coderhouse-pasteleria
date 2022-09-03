@@ -42,7 +42,8 @@ body {
     transform: translateX(0); } }
   .header__boton {
     background-color: #57200285;
-    margin-right: 40px !important; }
+    margin-right: 40px !important;
+    color: transparent; }
   .header__ul {
     display: flex;
     flex-wrap: wrap;
