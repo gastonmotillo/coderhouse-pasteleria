@@ -1,0 +1,15 @@
+1- Coloque etiquetas meta keywords en todos los HTML:
+Index: pasteleria, amor, dulce, tortas, tartas, alfajores, cheesecake, pasta frola, lemon pie, chocooreo.
+Titulo: Pasteleria Capas de Amor | Inicio
+
+Sobre Mi: emprendedora, pasteleria artesanal, dulce, amor.
+Titulo: Pasteleria Capas de Amor | Sobre Mi
+
+Productos: pasteleria, dulce, amor, tortas, tartas, alfajores, cheesecake, pasta frola, lemon pie, chocooreo.
+Titulo: Pasteleria Capas de Amor | Productos
+
+Como Comprar: comprar, compras, pedidos, pagar, entrega, transferencia, efectivo.
+Titulo: Pasteleria Capas de Amor | Como Comprar
+
+Contacto: contacto, email, google, redes sociales, instagram, facebook, whatsapp.
+Titulo: Pasteleria Capas de Amor | Contacto

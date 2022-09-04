@@ -5,3 +5,8 @@
     padding: 10px;
     margin: 0;
 }
+
+@mixin tamaniosImgProd ($height, $width) {
+    height: $height;
+    width: $width;
+}
