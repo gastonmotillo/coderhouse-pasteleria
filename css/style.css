@@ -446,7 +446,6 @@ body {
     flex-flow: column wrap;
     margin-top: 10px; }
     .footer__parrafos a {
-      text-decoration: none;
       color: #572002;
       font-weight: 600; }
 
