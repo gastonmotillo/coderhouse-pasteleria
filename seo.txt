@@ -1,15 +1,22 @@
-1- Coloque etiquetas meta keywords en todos los HTML:
+1- Coloque etiquetas meta keywords y description en todos los HTML:
+
 Index: pasteleria, amor, dulce, tortas, tartas, alfajores, cheesecake, pasta frola, lemon pie, chocooreo.
+Descripcion: Es un emprendimiento de pasteleria, con más de un año de experiencia en la elaboración de postres y tortas.
 Titulo: Pasteleria Capas de Amor | Inicio
 
+
 Sobre Mi: emprendedora, pasteleria artesanal, dulce, amor.
+Descripcion: Eva Espinoza, una joven emprendedora que le apasiona el mundo de la pastelería artesanal.
 Titulo: Pasteleria Capas de Amor | Sobre Mi
 
 Productos: pasteleria, dulce, amor, tortas, tartas, alfajores, cheesecake, pasta frola, lemon pie, chocooreo.
+Descripcion: Venta de productos de elaboracion propia, utilizando las mejores materias primas
 Titulo: Pasteleria Capas de Amor | Productos
 
 Como Comprar: comprar, compras, pedidos, pagar, entrega, transferencia, efectivo.
+Descripcion: como realizar un pedido.
 Titulo: Pasteleria Capas de Amor | Como Comprar
 
 Contacto: contacto, email, google, redes sociales, instagram, facebook, whatsapp.
+Descripcion: ponete en contacto conmigo.
 Titulo: Pasteleria Capas de Amor | Contacto
