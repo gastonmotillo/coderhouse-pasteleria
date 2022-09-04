@@ -446,8 +446,9 @@ body {
     flex-flow: column wrap;
     margin-top: 10px; }
     .footer__parrafos a {
-      color: #572002;
-      font-weight: 600; }
+      color: #572002; }
+      .footer__parrafos a:hover {
+        font-weight: 600; }
 
 @media (max-width: 680px) {
   .footer__ul h3 {
