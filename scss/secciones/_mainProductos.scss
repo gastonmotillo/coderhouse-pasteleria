@@ -25,6 +25,7 @@
     }
 
     &__gridProd {
+
         img {
             @include tamaniosImgProd (400px, 310px)
             margin: 15px;
@@ -39,24 +40,44 @@
         }
 
         h3 {
-            margin-top: 20px;
-            padding: 10px;
+            margin-top: 27px;
             color: $colorLetra;
             font-weight: 600 !important;
             font-size: 25px;
         }
 
         h4 {
-            padding: 10px;
             color: $colorLetra;
             font-weight: 600 !important;
-            font-size: 25px;
+            font-size: 23px;
+            margin-bottom: 17px;
         }
 
         p {
             padding: 10px;
             color: $colorLetra;
-            font-size: 25px;
+            font-size: 22px;
+            margin-bottom: 0;
+            height: 185px;
+        }
+    }
+
+    &__btn {
+        background-color: #FCE2DB;
+        color: #572002;
+        font-size: 19px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        border: none;
+        transition: .5s ease;
+        box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.966);
+
+        &:hover {
+            font-size: 20px;
+            background-color: #572002;
+            color: #FCE2DB;
         }
     }
 }
