@@ -38,6 +38,19 @@
         background-color: $colorBotonNav;
         margin-right: 40px !important;
         color: transparent;
+        animation: menu 1s linear 0s 1 normal forwards;
+
+        @keyframes menu {
+            0% {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+        
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
     }   
 
     &__ul {
