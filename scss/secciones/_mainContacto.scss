@@ -31,6 +31,7 @@
                 padding: 10px;
                 color: $colorLetra;
                 font-size: 25px;
+                font-weight: 600 !important;
                 margin: 5px;
             }
 
@@ -38,6 +39,8 @@
                 background-color: transparent;
                 border: none;
                 border-bottom: 3px solid #572002;
+                text-align: center;
+                color: #572002;
 
                 &:focus {
                     outline: none;

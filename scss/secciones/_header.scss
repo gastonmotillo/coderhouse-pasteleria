@@ -17,8 +17,9 @@
         animation: logo 1s linear 0s 1 normal forwards;
 
         img {
-            width: 170px !important;
+            width: 165px !important;
             margin-left: 100px;
+            opacity: .8;
         }
 
         @keyframes logo {

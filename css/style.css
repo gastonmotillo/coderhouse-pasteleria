@@ -30,8 +30,9 @@ body {
   .header__logo {
     animation: logo 1s linear 0s 1 normal forwards; }
     .header__logo img {
-      width: 170px !important;
-      margin-left: 100px; }
+      width: 165px !important;
+      margin-left: 100px;
+      opacity: .8; }
 
 @keyframes logo {
   0% {
@@ -238,40 +239,42 @@ body {
   .mainProductos__gridContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 900px;
-    margin: 0 auto;
     padding: 15px;
-    align-items: start;
     text-align: center;
     justify-content: center;
-    grid-row-gap: 30px;
-    grid-column-gap: 30px; }
-  .mainProductos__gridProd img {
-    height: 400px;
-    width: 310px;
-    margin: 15px;
-    border-radius: 30px;
-    box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973);
-    transition: all 300ms;
-    position: relative; }
-    .mainProductos__gridProd img:hover {
-      transform: scale(1.03); }
-  .mainProductos__gridProd h3 {
-    margin-top: 27px;
-    color: #572002;
-    font-weight: 600 !important;
-    font-size: 25px; }
-  .mainProductos__gridProd h4 {
-    color: #572002;
-    font-weight: 600 !important;
-    font-size: 23px;
-    margin-bottom: 17px; }
-  .mainProductos__gridProd p {
-    padding: 10px;
-    color: #572002;
-    font-size: 22px;
-    margin-bottom: 0;
-    height: 185px; }
+    grid-row-gap: 30px; }
+  .mainProductos__gridProd {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .mainProductos__gridProd div {
+      overflow: hidden;
+      margin: 15px;
+      border-radius: 30px;
+      box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973);
+      position: relative;
+      height: 400px;
+      width: 320px; }
+      .mainProductos__gridProd div img {
+        transition: all 300ms; }
+        .mainProductos__gridProd div img:hover {
+          transform: scale(1.1); }
+    .mainProductos__gridProd h3 {
+      margin-top: 30px;
+      color: #572002;
+      font-weight: 600 !important;
+      font-size: 25px; }
+    .mainProductos__gridProd h4 {
+      color: #572002;
+      font-weight: 600 !important;
+      font-size: 23px;
+      margin-bottom: 17px; }
+    .mainProductos__gridProd p {
+      padding: 10px;
+      color: #572002;
+      font-size: 22px;
+      margin-bottom: 0;
+      height: 180px; }
   .mainProductos__btn {
     background-color: #FCE2DB;
     color: #572002;
@@ -349,11 +352,14 @@ body {
         padding: 10px;
         color: #572002;
         font-size: 25px;
+        font-weight: 600 !important;
         margin: 5px; }
       .mainContacto__contacto form input {
         background-color: transparent;
         border: none;
-        border-bottom: 3px solid #572002; }
+        border-bottom: 3px solid #572002;
+        text-align: center;
+        color: #572002; }
         .mainContacto__contacto form input:focus {
           outline: none; }
       .mainContacto__contacto form textarea {
@@ -443,7 +449,7 @@ body {
       color: #572002;
       font-size: 25px;
       padding: 10px;
-      margin: 15px;
+      margin: 35px;
       border-radius: 10px;
       border: none;
       transition: .5s ease;
@@ -479,8 +485,10 @@ body {
   .footer__ul h3 {
     display: none; }
   .footer__ul a {
-    font-size: 20px; }
+    font-size: 20px;
+    margin: 15px; }
     .footer__ul a:hover {
+      font-size: 22px;
       text-decoration: none; }
   .footer__parrafos p {
     font-size: 17px; } }

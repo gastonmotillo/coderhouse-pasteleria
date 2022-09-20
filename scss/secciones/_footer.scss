@@ -22,7 +22,7 @@
             color: #572002;
             font-size: 25px;
             padding: 10px;
-            margin: 15px;
+            margin: 35px;
             border-radius: 10px;
             border: none;
             transition: .5s ease;
@@ -91,9 +91,10 @@
 
             a {
                 font-size: 20px;
+                margin: 15px;
 
                 &:hover {
-                    
+                    font-size: 22px;
                     text-decoration: none;
                 
                 }

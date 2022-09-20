@@ -14,33 +14,37 @@
     &__gridContainer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        max-width: 900px;
-        margin: 0 auto;
         padding: 15px;
-        align-items: start;
         text-align: center;
         justify-content: center;
         grid-row-gap: 30px;
-        grid-column-gap: 30px;
     }
 
     &__gridProd {
 
-        img {
-            @include tamaniosImgProd (400px, 310px)
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div {
+            overflow: hidden;
             margin: 15px;
             border-radius: 30px;
             box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973);
-            transition: all 300ms;
             position: relative;
+            @include tamaniosDivImg ( 400px, 320px)
 
-            &:hover {
-                transform: scale(1.03);
+            img {
+                transition: all 300ms;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
             }
         }
 
         h3 {
-            margin-top: 27px;
+            margin-top: 30px;
             color: $colorLetra;
             font-weight: 600 !important;
             font-size: 25px;
@@ -58,10 +62,11 @@
             color: $colorLetra;
             font-size: 22px;
             margin-bottom: 0;
-            height: 185px;
+            height: 180px;
         }
     }
 
+   
     &__btn {
         background-color: #FCE2DB;
         color: #572002;

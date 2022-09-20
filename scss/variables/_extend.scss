@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-@mixin tamaniosImgProd ($height, $width) {
+@mixin tamaniosDivImg ($height, $width) {
     height: $height;
     width: $width;
 }
