@@ -10,7 +10,7 @@
     min-height: $altoMinimo - 20vh;
 
     h1 {
-        font-size: 50px !important;
+        font-size: 3.125rem !important;
         font-weight: 600 !important;
     }
 
@@ -18,7 +18,7 @@
         display: flex;
         align-items: center;
         color: $colorLetra;
-        font-size: 20px;
+        font-size: 1.25rem;
 
         form {
             display: flex;
@@ -30,7 +30,7 @@
             label {
                 padding: 10px;
                 color: $colorLetra;
-                font-size: 25px;
+                font-size: 1.5625rem;
                 font-weight: 600 !important;
                 margin: 5px;
             }
@@ -64,7 +64,7 @@
     &__btn {
         background-color: #FCE2DB !important;
         color: #572002;
-        font-size: 17px;
+        font-size: 1.0625rem;
         margin: 20px;
         padding: 10px;
         border: none;
@@ -74,7 +74,7 @@
         box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.979);
 
         &:hover {
-            font-size: 18px;
+            font-size: 1.125rem;
             background-color: #572002 !important;
             color: #FCE2DB;
         }
@@ -86,7 +86,7 @@
         align-items: center;
         background-color: #57200234;
         color: $colorLetra;
-        font-size: 20px;
+        font-size: 1.25rem;
         text-align: center;
         margin: 50px;
         padding: 40px;
@@ -94,7 +94,7 @@
         box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973);
 
         h2 {
-            font-size: 30px;
+            font-size: 1.875rem;
             font-weight: 600 !important;
             margin-bottom: 25px;
         }
@@ -116,7 +116,7 @@
     .mainContacto {
 
         h1 {
-            font-size: 30px !important;
+            font-size: 1.875rem !important;
         }
 
         &__contacto {
@@ -124,7 +124,7 @@
             flex-direction: column;
 
             label {
-                font-size: 20px !important;
+                font-size: 1.25rem !important;
             }
 
             form {
@@ -138,7 +138,7 @@
             margin: 0;
 
             h2 {
-                font-size: 20px !important;
+                font-size: 1.25rem !important;
             }
 
             iframe {

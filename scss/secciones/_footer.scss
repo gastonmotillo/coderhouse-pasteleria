@@ -20,7 +20,7 @@
             text-decoration: none;
             background-color: #FCE2DB;
             color: #572002;
-            font-size: 25px;
+            font-size: 1.5625rem;
             padding: 10px;
             margin: 35px;
             border-radius: 10px;
@@ -30,7 +30,7 @@
 
             &:hover {
                 text-decoration: none;
-                font-size: 27px;
+                font-size: 1.6875rem;
                 background-color: #572002;
                 color: #FCE2DB;
             }
@@ -39,7 +39,7 @@
 
         h3 {
             margin: 10px;
-            font-size: 35px;
+            font-size: 2.1875rem;
             font-weight: 300;
             animation: redesSociales 2s ease 0s infinite normal none;
 
@@ -90,11 +90,11 @@
             }
 
             a {
-                font-size: 20px;
+                font-size: 1.25rem;
                 margin: 15px;
 
                 &:hover {
-                    font-size: 22px;
+                    font-size: 1.375rem;
                     text-decoration: none;
                 
                 }
@@ -105,7 +105,7 @@
         &__parrafos {
 
             p {
-                font-size: 17px;
+                font-size: 1.0625rem;
             }
         }
     }

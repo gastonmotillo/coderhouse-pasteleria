@@ -17,7 +17,7 @@
         animation: logo 1s linear 0s 1 normal forwards;
 
         img {
-            width: 165px !important;
+            width: 140px !important;
             margin-left: 100px;
             opacity: .8;
         }
@@ -60,6 +60,7 @@
         list-style: none;
         background-color: $colorNavbar;
         padding: 3px;
+        margin-bottom: 0 !important;
         border-radius: 10px;
         box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.726);
         animation: nav 1s linear 0s 1 normal forwards;
@@ -88,28 +89,39 @@
                 color: rgba(255, 255, 255, 0.63);
                 font-weight: 600 !important;
                 text-decoration: none;
-                font-size: 20px !important;
+                font-size: 1.25rem !important;
                 transition: .5s ease;
 
                 &:hover {
                     color: white;
-                    font-size: 21px !important;
+                    font-size: 1.3125rem !important;
                 }
             }
         }
     }
 }
 
+
+
 @media (max-width: 1024px) {
     .header {
+
+        &__nav {
+            margin-right: 30px !important;
+        }
+
+        &__logo {
+
+            img {
+                width: 100px !important;
+                margin-left: 30px !important;
+            }
+        }
 
         &__ul {
 
             li {
-
-                a {
-                    font-size: 17px !important;
-                }
+                margin: 0 5px !important;
             }
         }
     }
@@ -144,7 +156,7 @@
         &__logo {
 
             img {
-                width: 130px !important;
+                width: 100px !important;
                 margin-left: 0;
             }
         }

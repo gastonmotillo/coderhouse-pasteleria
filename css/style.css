@@ -30,7 +30,7 @@ body {
   .header__logo {
     animation: logo 1s linear 0s 1 normal forwards; }
     .header__logo img {
-      width: 165px !important;
+      width: 140px !important;
       margin-left: 100px;
       opacity: .8; }
 
@@ -60,6 +60,7 @@ body {
     list-style: none;
     background-color: #572002d7;
     padding: 3px;
+    margin-bottom: 0 !important;
     border-radius: 10px;
     box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.726);
     animation: nav 1s linear 0s 1 normal forwards; }
@@ -79,15 +80,20 @@ body {
         color: rgba(255, 255, 255, 0.63);
         font-weight: 600 !important;
         text-decoration: none;
-        font-size: 20px !important;
+        font-size: 1.25rem !important;
         transition: .5s ease; }
         .header__ul li a:hover {
           color: white;
-          font-size: 21px !important; }
+          font-size: 1.3125rem !important; }
 
 @media (max-width: 1024px) {
-  .header__ul li a {
-    font-size: 17px !important; } }
+  .header__nav {
+    margin-right: 30px !important; }
+  .header__logo img {
+    width: 100px !important;
+    margin-left: 30px !important; }
+  .header__ul li {
+    margin: 0 5px !important; } }
 
 @media (max-width: 767px) {
   .header__logo img {
@@ -99,7 +105,7 @@ body {
   .header__nav {
     margin-right: 0 !important; }
   .header__logo img {
-    width: 130px !important;
+    width: 100px !important;
     margin-left: 0; }
   .header__ul {
     width: 100%;
@@ -136,12 +142,13 @@ body {
     margin: 15px 5px;
     padding: 30px; }
     .mainIndex__texto h1 {
-      font-size: 110px !important;
+      font-size: 6.875rem !important;
       font-weight: bolder;
       font-family: "Dancing Script", cursive !important; }
     .mainIndex__texto p {
-      font-size: 40px;
-      color: #572002; }
+      font-size: 2.5rem;
+      color: #572002;
+      margin-top: 20px; }
   .mainIndex__container {
     z-index: 0; }
 
@@ -151,10 +158,10 @@ body {
     .mainIndex__princ img {
       width: 275px; }
   .mainIndex__texto h1 {
-    font-size: 50px !important;
+    font-size: 3.125rem !important;
     text-align: center; }
   .mainIndex__texto p {
-    font-size: 25px;
+    font-size: 1.5625rem;
     text-align: center; } }
 
 .mainSobreMi {
@@ -182,14 +189,14 @@ body {
       padding: 15px;
       color: #572002;
       font-family: "Dancing Script", cursive !important;
-      font-size: 55px !important;
+      font-size: 3.4375rem !important;
       font-weight: 600 !important;
       margin: 15px 5px; }
     .mainSobreMi__titulo p {
       text-align: center;
       padding: 15px;
       color: #572002;
-      font-size: 33px;
+      font-size: 2.0625rem;
       margin: 15px 5px; }
   .mainSobreMi__videos {
     display: flex;
@@ -198,7 +205,7 @@ body {
     text-align: center;
     padding: 15px;
     color: #572002;
-    font-size: 17px;
+    font-size: 1.0625rem;
     margin: 15px 5px; }
     .mainSobreMi__vtitulo h2 {
       font-weight: 600 !important; }
@@ -219,12 +226,12 @@ body {
     .mainSobreMi__card img {
       width: 275px; }
   .mainSobreMi__titulo h1 {
-    font-size: 34px !important;
+    font-size: 2.125rem !important;
     margin-top: 30px; }
   .mainSobreMi__titulo p {
-    font-size: 20px; }
+    font-size: 1.25rem; }
   .mainSobreMi__vtitulo h2 {
-    font-size: 20px; } }
+    font-size: 1.25rem; } }
 
 .mainProductos {
   font-family: "Barlow", sans-serif;
@@ -233,7 +240,7 @@ body {
     padding: 15px;
     color: #572002;
     font-weight: 600 !important;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-align: center;
     margin: 20px; }
   .mainProductos__gridContainer {
@@ -263,22 +270,22 @@ body {
       margin-top: 30px;
       color: #572002;
       font-weight: 600 !important;
-      font-size: 25px; }
+      font-size: 1.5625rem; }
     .mainProductos__gridProd h4 {
       color: #572002;
       font-weight: 600 !important;
-      font-size: 23px;
+      font-size: 1.4375rem;
       margin-bottom: 17px; }
     .mainProductos__gridProd p {
       padding: 10px;
       color: #572002;
-      font-size: 22px;
+      font-size: 1.375rem;
       margin-bottom: 0;
       height: 180px; }
   .mainProductos__btn {
     background-color: #FCE2DB;
     color: #572002;
-    font-size: 19px;
+    font-size: 1.1875rem;
     font-weight: 600;
     padding: 10px;
     margin: 10px;
@@ -287,7 +294,7 @@ body {
     transition: .5s ease;
     box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.966); }
     .mainProductos__btn:hover {
-      font-size: 20px;
+      font-size: 1.25rem;
       background-color: #572002;
       color: #FCE2DB; }
 
@@ -297,7 +304,7 @@ body {
 
 @media (max-width: 680px) {
   .mainProductos h1 {
-    font-size: 30px; }
+    font-size: 1.875rem; }
   .mainProductos__gridContainer {
     grid-template-columns: repeat(1, 1fr); } }
 
@@ -308,19 +315,19 @@ body {
   .mainComoComprar h1 {
     font-weight: 600 !important;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125rem;
     margin: 40px; }
   .mainComoComprar ol {
     padding-left: 50px; }
   .mainComoComprar li {
     padding: 10px;
-    font-size: 30px; }
+    font-size: 1.875rem; }
 
 @media (max-width: 680px) {
   .mainComoComprar h1 {
-    font-size: 30px; }
+    font-size: 1.875rem; }
   .mainComoComprar li {
-    font-size: 20px; }
+    font-size: 1.25rem; }
   .mainComoComprar ol {
     padding-left: 30px; } }
 
@@ -335,13 +342,13 @@ body {
   font-family: "Barlow", sans-serif;
   min-height: 80vh; }
   .mainContacto h1 {
-    font-size: 50px !important;
+    font-size: 3.125rem !important;
     font-weight: 600 !important; }
   .mainContacto__contacto {
     display: flex;
     align-items: center;
     color: #572002;
-    font-size: 20px; }
+    font-size: 1.25rem; }
     .mainContacto__contacto form {
       display: flex;
       flex-direction: column;
@@ -351,7 +358,7 @@ body {
       .mainContacto__contacto form label {
         padding: 10px;
         color: #572002;
-        font-size: 25px;
+        font-size: 1.5625rem;
         font-weight: 600 !important;
         margin: 5px; }
       .mainContacto__contacto form input {
@@ -373,7 +380,7 @@ body {
   .mainContacto__btn {
     background-color: #FCE2DB !important;
     color: #572002;
-    font-size: 17px;
+    font-size: 1.0625rem;
     margin: 20px;
     padding: 10px;
     border: none;
@@ -382,7 +389,7 @@ body {
     transition: .5s ease;
     box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.979); }
     .mainContacto__btn:hover {
-      font-size: 18px;
+      font-size: 1.125rem;
       background-color: #572002 !important;
       color: #FCE2DB; }
   .mainContacto__mapa {
@@ -391,14 +398,14 @@ body {
     align-items: center;
     background-color: #57200234;
     color: #572002;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     margin: 50px;
     padding: 40px;
     border-radius: 30px;
     box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.973); }
     .mainContacto__mapa h2 {
-      font-size: 30px;
+      font-size: 1.875rem;
       font-weight: 600 !important;
       margin-bottom: 25px; }
 
@@ -409,12 +416,12 @@ body {
 
 @media (max-width: 680px) {
   .mainContacto h1 {
-    font-size: 30px !important; }
+    font-size: 1.875rem !important; }
   .mainContacto__contacto {
     display: flex;
     flex-direction: column; }
     .mainContacto__contacto label {
-      font-size: 20px !important; }
+      font-size: 1.25rem !important; }
     .mainContacto__contacto form {
       margin-right: 0px; }
   .mainContacto__mapa {
@@ -422,7 +429,7 @@ body {
     height: 400px;
     margin: 0; }
     .mainContacto__mapa h2 {
-      font-size: 20px !important; }
+      font-size: 1.25rem !important; }
     .mainContacto__mapa iframe {
       width: 300px;
       height: 300px; } }
@@ -447,7 +454,7 @@ body {
       text-decoration: none;
       background-color: #FCE2DB;
       color: #572002;
-      font-size: 25px;
+      font-size: 1.5625rem;
       padding: 10px;
       margin: 35px;
       border-radius: 10px;
@@ -456,12 +463,12 @@ body {
       box-shadow: 4px 7px 37px -2px rgba(0, 0, 0, 0.966); }
       .footer__ul a:hover {
         text-decoration: none;
-        font-size: 27px;
+        font-size: 1.6875rem;
         background-color: #572002;
         color: #FCE2DB; }
     .footer__ul h3 {
       margin: 10px;
-      font-size: 35px;
+      font-size: 2.1875rem;
       font-weight: 300;
       animation: redesSociales 2s ease 0s infinite normal none; }
 
@@ -485,10 +492,10 @@ body {
   .footer__ul h3 {
     display: none; }
   .footer__ul a {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 15px; }
     .footer__ul a:hover {
-      font-size: 22px;
+      font-size: 1.375rem;
       text-decoration: none; }
   .footer__parrafos p {
-    font-size: 17px; } }
+    font-size: 1.0625rem; } }
