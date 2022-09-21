@@ -28,10 +28,10 @@ body {
     flex-grow: 0 !important;
     margin-right: 130px; }
   .header__logo {
-    animation: logo 1s linear 0s 1 normal forwards; }
+    animation: logo 1s linear 0s 1 normal forwards;
+    margin-left: 100px; }
     .header__logo img {
-      width: 140px !important;
-      margin-left: 100px;
+      width: 120px !important;
       opacity: .8; }
 
 @keyframes logo {
@@ -89,14 +89,19 @@ body {
 @media (max-width: 1024px) {
   .header__nav {
     margin-right: 30px !important; }
-  .header__logo img {
-    width: 100px !important;
+  .header__logo {
     margin-left: 30px !important; }
+    .header__logo img {
+      width: 100px !important; }
   .header__ul li {
-    margin: 0 5px !important; } }
+    margin: 0 5px !important; }
+    .header__ul li a {
+      font-size: 1.1rem !important; }
+      .header__ul li a:hover {
+        font-size: 1.1625rem !important; } }
 
 @media (max-width: 767px) {
-  .header__logo img {
+  .header__logo {
     margin-left: 0; }
   .header__ul {
     animation: none; } }
@@ -104,9 +109,10 @@ body {
 @media (max-width: 680px) {
   .header__nav {
     margin-right: 0 !important; }
-  .header__logo img {
-    width: 95px !important;
+  .header__logo {
     margin-left: 0; }
+    .header__logo img {
+      width: 95px !important; }
   .header__ul {
     width: 100%;
     animation: none;
@@ -150,7 +156,9 @@ body {
       color: #572002;
       margin-top: 20px; }
   .mainIndex__container {
-    z-index: 0; }
+    z-index: 0;
+    height: 600px;
+    overflow: hidden; }
 
 @media (max-width: 680px) {
   .mainIndex__princ {
@@ -303,6 +311,9 @@ body {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media (max-width: 680px) {
+  .mainProductos__gridProd div {
+    height: 370px;
+    width: 290px; }
   .mainProductos h1 {
     font-size: 1.875rem; }
   .mainProductos__gridContainer {
@@ -367,6 +378,8 @@ body {
         border-bottom: 3px solid #572002;
         text-align: center;
         color: #572002; }
+        .mainContacto__contacto form input:hover {
+          background-color: #5720021a; }
         .mainContacto__contacto form input:focus {
           outline: none; }
       .mainContacto__contacto form textarea {
@@ -374,7 +387,10 @@ body {
         background-color: #5720021a;
         color: #572002;
         border: 2px solid #572002;
-        margin: 5px; }
+        margin: 5px;
+        padding: 5px; }
+        .mainContacto__contacto form textarea:hover {
+          background-color: #5720022d; }
         .mainContacto__contacto form textarea:focus {
           outline: none; }
   .mainContacto__btn {

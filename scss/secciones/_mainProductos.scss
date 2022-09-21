@@ -98,6 +98,13 @@
 @media (max-width: 680px) {
     .mainProductos {
 
+        &__gridProd {
+            div {
+                @include tamaniosDivImg ( 370px, 290px);
+            }
+        }
+
+
         h1 {
             font-size: 1.875rem;
         }

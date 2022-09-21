@@ -15,10 +15,10 @@
 
     &__logo {
         animation: logo 1s linear 0s 1 normal forwards;
+        margin-left: 100px;
 
         img {
-            width: 140px !important;
-            margin-left: 100px;
+            width: 120px !important;
             opacity: .8;
         }
 
@@ -111,10 +111,10 @@
         }
 
         &__logo {
+            margin-left: 30px !important;
 
             img {
                 width: 100px !important;
-                margin-left: 30px !important;
             }
         }
 
@@ -122,6 +122,14 @@
 
             li {
                 margin: 0 5px !important;
+
+                a {
+                    font-size: 1.1rem !important;
+
+                    &:hover {
+                        font-size: 1.1625rem !important;
+                    }
+                }
             }
         }
     }
@@ -132,10 +140,7 @@
     .header {
         
         &__logo {
-
-            img {
-                margin-left: 0;
-            }
+            margin-left: 0;
         }
 
         &__ul {
@@ -154,10 +159,10 @@
         }
 
         &__logo {
+            margin-left: 0;
 
             img {
                 width: 95px !important;
-                margin-left: 0;
             }
         }
         
