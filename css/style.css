@@ -112,7 +112,7 @@ body {
   .header__logo {
     margin-left: 0; }
     .header__logo img {
-      width: 95px !important; }
+      width: 80px !important; }
   .header__ul {
     width: 100%;
     animation: none;
@@ -157,7 +157,6 @@ body {
       margin-top: 20px; }
   .mainIndex__container {
     z-index: 0;
-    height: 600px;
     overflow: hidden; }
 
 @media (max-width: 680px) {
