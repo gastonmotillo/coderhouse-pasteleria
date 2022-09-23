@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8f5c9daf85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="../css/style.css">
     <meta name="keywords" content="contacto, email, google, redes sociales, instagram, facebook, whatsapp">
     <meta name="description" content="ponete en contacto conmigo">
@@ -50,7 +51,7 @@
     <main class="mainContacto">
         <h1>Contactame</h1>
         <section class="mainContacto__contacto">
-            <form action="#" method="get" class="form">
+            <form data-aos="fade-right" action="#" method="get" class="form">
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre">
                 <label for="apellido">Apellido</label>
@@ -62,7 +63,7 @@
                 <input class="mainContacto__btn" type="reset">
                 <input class="mainContacto__btn" type="submit" value="Enviar">
             </form>
-            <div class="mainContacto__mapa">
+            <div class="mainContacto__mapa" data-aos="fade-left">
                 <h2>Buscame en google:</h2>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11261.4907617336!2d-60.674958542546996!3d-32.949392663098614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab1e5c724153%3A0x484819ba12efed15!2sLa%20Pasteler%C3%ADa!5e0!3m2!1ses-419!2sar!4v1658319895725!5m2!1ses-419!2sar"
@@ -96,7 +97,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

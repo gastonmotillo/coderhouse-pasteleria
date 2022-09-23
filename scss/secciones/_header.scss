@@ -20,6 +20,20 @@
         img {
             width: 120px !important;
             opacity: .8;
+
+            &:hover {
+                animation: rotacionlogo 1s ease 0s 1 normal forwards;
+
+                @keyframes rotacionlogo {
+                    0% {
+                        transform: rotate(0);
+                    }
+                
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+            }
         }
 
         @keyframes logo {
