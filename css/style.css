@@ -344,7 +344,6 @@ body {
 .mainContacto {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
   margin: 15px;
   padding: 15px;
@@ -356,6 +355,8 @@ body {
     font-weight: 600 !important; }
   .mainContacto__contacto {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     color: #572002;
     font-size: 1.25rem; }
@@ -363,8 +364,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 40px;
-      margin-right: 80px; }
+      padding: 40px; }
       .mainContacto__contacto form label {
         padding: 10px;
         color: #572002;
@@ -424,29 +424,24 @@ body {
       font-weight: 600 !important;
       margin-bottom: 25px; }
 
-@media (max-width: 769px) {
-  .mainContacto__contacto {
-    display: flex;
-    flex-direction: column; } }
-
 @media (max-width: 680px) {
   .mainContacto h1 {
     font-size: 1.875rem !important; }
-  .mainContacto__contacto {
-    display: flex;
-    flex-direction: column; }
-    .mainContacto__contacto label {
-      font-size: 1.25rem !important; }
-    .mainContacto__contacto form {
-      margin-right: 0px; }
+  .mainContacto__contacto label {
+    font-size: 1.25rem !important; }
+  .mainContacto__contacto form {
+    padding: 0; }
+    .mainContacto__contacto form textarea {
+      margin: 0;
+      padding: 0; }
   .mainContacto__mapa {
-    width: 320px;
+    width: 300px;
     height: 400px;
     margin: 0; }
     .mainContacto__mapa h2 {
       font-size: 1.25rem !important; }
     .mainContacto__mapa iframe {
-      width: 300px;
+      width: 280px;
       height: 300px; } }
 
 .footer {
